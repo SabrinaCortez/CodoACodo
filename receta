@@ -1,0 +1,157 @@
+<!-- La tarea es: hacer una página de una receta
+El nombre de la receta tiene que estar en el título del documento y también como título del contenido.
+El sitio va a tener dos secciones: Ingredientes y Preparación.
+En cada sección vamos a colocar un texto que diga "Próximamente...", este contenido lo vamos a agregar luego.
+A continuación del título del contenido agregar un texto y una imagen del plato terminado, pueden usar una imagen de https://picsum.photos/, luego veremos más opciones.
+
+La tarea es: agregar a la receta algunas listas
+En los ingredientes agregar una lista con lo ingredientes necesarios para la receta
+En la preparación agregar los pasos que debo seguir para realizar la receta
+
+La tarea es: agregar a la receta un video y un formulario
+Agregar un video con los pasos para realizar la receta, puede ser en la sección preparación
+Agregar al final una nueva sección Contacto, agregar un formulario de contacto, por lo menos deben solicitar nombre, correo y un comentario al visitante, el nombre y el correo tienen que ser obligatorios
+Pueden usar https://formsubmit.co/ para enviar el formulario por correo
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1</title>
+</head>
+<body>
+   <header> Receta Lemon pie</header> 
+   <main><h1>Lemon Pie</h1></main>
+
+
+   <img src="https://2trendies.com/hero/2023/02/lemon-pie-de-crema-de-limon-y-merengue.jpg?width=1200&aspect_ratio=16:9" alt="Lemon pie" />
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<section id="indice">
+<h2>Indice</h2>
+<a href="#ingredientes" alt="ingredientes">Ingredientes</a><br/>
+<a href="#preparacion" alt="preparacion">Preparacion</a>
+</section>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+   <section id="ingredientes">
+   <h2> Ingredientes</h2>
+  <ul>
+<h3>Para la masa:</h3>
+<ul>
+<li>100g Harina Leudante</li> 
+<li>100 g Manteca</li>
+<li>4 cdas Azúcar</li>
+<li>1 Huevo</li>
+<li>1 Yema</li>
+<li>1/2 Ralladura de limón (bien chiquito y sin lo blanco)</li>
+</ul>
+<h3>Para el relleno:</h3>
+<ul>
+    <li>1 Limón (jugo y ralladura sin lo blanco)</li>
+    <li>100 g Azúcar</li>
+    <li>200 ml Agua</li>
+    <li>1 cda Manteca</li>
+    <li>2 cdas Fécula de Maíz</li>
+    <li>2 Yemas</li>
+</ul>
+<h3> Merengue suizo:</h3>
+<ul>
+    <li>3 Claras (sobrantes de la receta)</li>
+    <li>9 cdas Azúcar</li>
+</ul>
+</ul>
+<a href="#indice" alt="indice">volver al indice</a>
+</section>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<section id="preparacion">
+    <h2>Preparacion</h2>
+    
+    <ol>
+   <li>
+    Mezclar los Ingredientes de la masa en el orden que están anotados. Recomendaciones: tener la Manteca a temperatura ambiente. Rallar la mitad del limón bien chiquito. Guardar la clara (luego se usa en el merengue).
+    </li>
+    
+       <li>
+        Va a quedar una masa bastante grasosa, la vamos a estirar en una tartera con la ayuda de un film! colocar el film (o un nylon) sobre la masa y estirar (con un palo de amasar o con las manos) ! eso va a ayudar que la masa no se pegue en los dedos! colocar al horno y retirar cuando este apenas dorada!
+        </li> 
+    
+    
+        <li>
+        Relleno: Se mezclan los ingredientes en una olla a fuego lento el jugo, la ralladura de 1 limón, el azúcar, 225 ml de Agua (no pasarse porque no se endurece el relleno) 1 cda de manteca (importante), la fécula y las 2 yemas (guardar las claras). Esperar a que hierva y se espese.
+       </li>
+    
+        <li>
+        Retirar el relleno cuando se espese (o 5/10 min luego del hervor) y colocar sobre la masa ya cocinada.
+      </li>
+ <li>
+    Merengue: mezclar las 3 claras de huevo que sobraron con la azúcar y colocar a baño maría bajo fuego lento, revolver hasta que el azúcar se disuelva y llegue a unos 60 grados! Importante: no dejar que las claras se cocinen. y retirar cuando al tocarlo con los dedos este caliente pero no queme!
+</li>
+    <li>
+
+    Batir a velocidad media hasta que se forme el merengue y agregar una cucharada de jugo de limón para que quede bien blanco. Colocar con una manga sobre la tarta y si quieren darle un toque lindo, colocar en el horno para que se dore el merengue (cuidado que no se queme la tarta porque ya esta cocinada la masa).
+  
+   </li>
+</ol>
+
+<div>
+<video controls>
+    <source src="movie.mp4" type="video/mp4">
+<source src="movie.ogg" type="video/ogg">
+</video>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+</div>
+<div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wcc_h7NSukQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+<div>
+<a href="#indice" alt="indice">volver al indice</a></div>
+</section>
+
+<section>
+    <form action="" method="get" enctype="application/x-www-form-urlencoded"></form>
+    <div>
+        <h1>Contacto</h1>
+        <label for="nombre">Nombre: </label>
+        <input
+          required
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Nombre completo"
+                            /> </div>
+                            <br>
+                            <div>
+                            <label for="Mail">Mail: </label>
+                            <input
+                              required
+                              type="text"
+                              name="Mail"
+                              id="Mail"
+                              placeholder="e-mail"
+                                                />
+                                            </div>
+                                            <br>
+                                            <div>
+                                                <label for="mensaje">Mensaje: </label>
+                                                <textarea name="mensaje" id="mensaje" cols="30" rows="15" placeholder="escriba su mensaje aqui"></textarea  >
+                                                    <input type="submit" value="Enviar"> 
+                                              </div>
+     
+
+    </form>
+
+  <!--<form action="https://formsubmit.co/your@email.com" method="POST">
+        <input type="text" name="name" required>
+        <input type="email" name="email" required>
+        <button type="submit">Send</button>
+   </form>-->  
+</section>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+</body>
+</html>
